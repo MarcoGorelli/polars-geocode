@@ -781,6 +781,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "polars_geocode"
+version = "0.1.2"
+dependencies = [
+ "jemallocator",
+ "polars",
+ "pyo3",
+ "pyo3-polars",
+ "reverse_geocoder",
+ "serde",
+]
+
+[[package]]
 name = "ppv-lite86"
 version = "0.2.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -993,18 +1005,6 @@ name = "regex-syntax"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
-
-[[package]]
-name = "reverse_geocoder"
-version = "0.1.2"
-dependencies = [
- "jemallocator",
- "polars",
- "pyo3",
- "pyo3-polars",
- "reverse_geocoder 4.0.0",
- "serde",
-]
 
 [[package]]
 name = "reverse_geocoder"
